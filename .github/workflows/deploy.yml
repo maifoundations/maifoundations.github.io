@@ -17,6 +17,8 @@ permissions:
 jobs:
   build:
     runs-on: ubuntu-latest
+    env:
+      BUN_LINK_PKG: 'true' # use local packages instead of remote ones
     steps:
       - name: Checkout your repository using git
         uses: actions/checkout@v4
