@@ -30,7 +30,7 @@ import config from './src/site.config.ts'
 export default defineConfig({
   // Top-Level Options
   site: 'https://maifoundations.github.io',
-  base: '/src',
+  // base: '/src',
   trailingSlash: 'never',
 
   // Adapter
