@@ -29,7 +29,8 @@ import config from './src/site.config.ts'
 // https://astro.build/config
 export default defineConfig({
   // Top-Level Options
-  site: 'https://maifoundations.github.io',
+  // site: 'https://maifoundations.github.io',
+  site: 'https://maifoundations.com',
   // base: '/src',
   trailingSlash: 'never',
 
