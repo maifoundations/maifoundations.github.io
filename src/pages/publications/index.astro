@@ -1,0 +1,41 @@
+---
+import { Comment } from 'astro-pure/advanced'
+import { Button, Collapse, Spoiler, Timeline } from 'astro-pure/user'
+import PageLayout from '@/layouts/CommonPage.astro'
+import Substats from '@/components/about/Substats.astro'
+import ToolSection from '@/components/about/ToolSection.astro'
+
+const headings = [
+  { depth: 2, slug: '2025', text: '2025' },
+]
+---
+
+<PageLayout title='Publications' {headings} info='/publications'>
+  <h2 id='2025'>2025</h2>
+
+  <p>
+    <b>Training-Free Watermarking for Autoregressive Image Generation</b> <br>
+    Yu Tong, Zihao Pan, Shuai Yang, Kaiyang Zhou <br>
+    arXiv <br>
+    <a href='https://arxiv.org/pdf/2505.14673' target='_blank'>pdf</a> |
+    <a href='https://github.com/maifoundations/IndexMark' target='_blank'>code</a> |
+    <a href="/blog/indexmark">blog</a>
+  </p>
+  
+  <p>
+    <b>Visionary-R1: Mitigating Shortcuts in Visual Reasoning with Reinforcement Learning</b> <br>
+    Jiaer Xia, Yuhang Zang, Peng Gao, Yixuan Li, Kaiyang Zhou <br>
+    arXiv <br>
+    <a href='https://arxiv.org/pdf/2505.14677' target='_blank'>pdf</a> |
+    <a href='https://github.com/maifoundations/Visionary-R1' target='_blank'>code</a> |
+    <a href="/blog/visionary-r1">blog</a>
+  </p>
+  
+  <p>
+    <b>Fine-tuning Quantized Neural Networks with Zeroth-order Optimization</b> <br>
+    Sifeng Shang, Jiayi Zhou, Chenyu Lin, Minxian Li, Kaiyang Zhou <br>
+    arXiv <br>
+    <a href='https://arxiv.org/pdf/2505.13430' target='_blank'>pdf</a> |
+    <a href='https://github.com/maifoundations/QZO' target='_blank'>code</a>
+  </p>
+</PageLayout>

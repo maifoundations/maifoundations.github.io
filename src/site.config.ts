@@ -7,7 +7,7 @@ export const theme: ThemeUserConfig = {
   /** Will be used in index page & copyright declaration */
   author: 'maifoundations',
   /** Description metadata for your website. Can be used in page metadata. */
-  description: 'Multimodal AI Foundations',
+  description: 'Multimodal AI Foundations --- Advancing Robust, Efficient, and Safe Multimodal Artificial Intelligence',
   /** The default favicon for your site which should be a path to an image in the `public/` directory. */
   favicon: '/favicon/favicon.ico',
   /** Specify the default language for this site. */
@@ -48,7 +48,7 @@ export const theme: ThemeUserConfig = {
   header: {
     menu: [
       { title: 'Blog', link: '/blog' },
-      // { title: 'Links', link: '/links' },
+      { title: 'Publications', link: '/publications' },
       { title: 'Github', link: 'https://github.com/maifoundations' },
       { title: 'About', link: '/about' }
     ]

@@ -4,7 +4,7 @@ import { Image } from 'astro:assets'
 import { Quote } from 'astro-pure/advanced'
 import { PostPreview } from 'astro-pure/components/pages'
 import { getBlogCollection, sortMDByDate } from 'astro-pure/server'
-import { Button, Card, Icon, Label } from 'astro-pure/user'
+import { Button, Card, Icon, Label, Timeline } from 'astro-pure/user'
 import PageLayout from '@/layouts/BaseLayout.astro'
 import ProjectCard from '@/components/home/ProjectCard.astro'
 import Section from '@/components/home/Section.astro'
@@ -27,52 +27,24 @@ const allPostsByDate = sortMDByDate(allPosts).slice(0, MAX_POSTS)
       <Image
         src={avatar}
         alt='profile'
-        class='h-28 w-auto'
+        class='h-32 w-auto'
         loading='eager'
       />
-      <!-- original: h-28 w-auto rounded-full border p-1 -->
-
-      <div class='flex flex-col items-center gap-y-4'>
-        <h1 class='text-3xl font-bold'>{config.author}</h1>
-        
-        <!-- <div class='flex flex-wrap justify-center gap-x-7 gap-y-3'>
-          <Label title='Hong Kong'>
-            <Icon name='location' class='size-5' slot='icon' />
-          </Label>
-          <Label
-            title='Github'
-            as='a'
-            href='https://github.com/cworld1/astro-theme-pure'
-            target='_blank'
-          >
-            <Icon name='github' class='size-5' slot='icon' />
-          </Label>
-        </div>
-      </div> -->
-
-      {/* Get template */}
-      <!-- <a
-        href='https://github.com/cworld1/astro-theme-pure'
-        target='_blank'
-        class='flex flex-row items-center gap-x-3 rounded-full border bg-background px-4 py-2 text-sm shadow-sm transition-shadow hover:shadow-md'
-      >
-        <span class='relative flex items-center justify-center'>
-          <span
-            class='absolute size-2 animate-ping rounded-full border border-green-400 bg-green-400 opacity-75'
-          ></span>
-          <span class='size-2 rounded-full bg-green-400'></span>
-        </span>
-        <p class='font-medium text-muted-foreground'>Get Template</p>
-      </a> -->
+      <p>
+        Advancing robust, efficient, and safe multimodal artificial intelligence
+      </p>
     </section>
 
     <div id='content' class='animate flex flex-col gap-y-10 md:w-4/5 lg:w-5/6'>
-      <Section title='About'>
+      <!-- <Section title='About'>
         <p class='text-muted-foreground'>
-          This is a test website.
+          Multimodal AI Foundations is a long-term research initiative focused on
+          advancing robust, efficient, and safe multimodal AI systems that
+          integrate vision, language, and beyond.
         </p>
         <Button title='More about me' class='w-fit self-end' href='/about' style='ahead' />
-      </Section>
+      </Section> -->
+      
       {
         allPostsByDate.length > 0 && (
           <Section title='Posts'>
@@ -88,22 +60,17 @@ const allPostsByDate = sortMDByDate(allPosts).slice(0, MAX_POSTS)
         )
       }
 
-      <Section title='Website List'>
+      <!-- <Section title='Highlights'>
         <div class='grid grid-cols-1 gap-3 sm:grid-cols-2'>
           <ProjectCard
-            href='https://www.youtube.com/watch?v=dQw4w9WgXcQ'
-            heading='Hello'
+            href='https://github.com/maifoundations/QZO'
+            heading='QZO'
             subheading='dolor sit amet, oratio ornatus explicari pro ex'
-            imagePath='/src/assets/projects/tmp.jpg'
-          />
-          <ProjectCard
-            href='https://www.youtube.com/watch?v=dQw4w9WgXcQ'
-            heading='Hello'
-            subheading='dolor sit amet, oratio ornatus explicari pro ex'
-            imagePath='/src/assets/projects/tmp.jpg'
+            imagePath='/src/assets/projects/code.jpg'
           />
         </div>
-      </Section>
+        <Button title='More projects' class='w-fit self-end' href='/projects' style='ahead' />
+      </Section> -->
     </div>
     <!-- <Quote class='mt-12' /> -->
   </main>

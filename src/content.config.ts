@@ -15,11 +15,11 @@ const blog = defineCollection({
   schema: ({ image }) =>
     z.object({
       // Required
-      title: z.string().max(60),
-      author: z.string().max(100),
-      description: z.string().max(160),
+      title: z.string().max(160),
+      author: z.string().max(160),
       publishDate: z.coerce.date(),
       // Optional
+      description: z.string().max(200).optional(),
       updatedDate: z.coerce.date().optional(),
       heroImage: z
         .object({
