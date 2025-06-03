@@ -1,7 +1,7 @@
 ---
 title: 'Watermarking Autoregressive Image Generation Models'
 author: 'Yu Tong'
-publishDate: 2025-06-02
+publishDate: 2025-06-03
 tags:
   - Watermark
   - Autoregressive Model
@@ -45,6 +45,6 @@ There are four distinct advantages of IndexMark when compared to existing waterm
 
 The field of autoregressive image generation is experiencing rapid advancements. However, watermarking techniques specifically for autoregressive image models are currently under-explored within the AI community. With autoregressive generation models becoming stronger and stronger, there is an increasing need to develop robust watermarking techniques for these models to ensure the authenticity and traceability of generated images. We believe IndexMark represents a significant step towards ensuring the responsible and secure deployment of autoregressive image generation models.
 
-Paper: https://arxiv.org/pdf/2505.14673.
-
-Code: https://github.com/maifoundations/IndexMark.
+## Resources
+- Paper: https://arxiv.org/pdf/2505.14673.
+- Code: https://github.com/maifoundations/IndexMark.

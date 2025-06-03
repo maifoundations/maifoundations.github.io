@@ -54,6 +54,7 @@ Compared with existing RL-based reasoning methods, Visionary-R1 has the followin
 
 We highlight the shortcut learning problem encountered when applying reinforcement learning to visual language models. Unlike large language models, VLMs are significantly more challenging to train for reasoning without relying on annotated data. Through our proposed model, Visionary-R1, we demonstrate that even without using chain-of-thought annotations and relying solely on question-answer pairs, it is possible to achieve strong performance on challenging visual reasoning benchmarks. Visionary-R1 surpasses several commercial AI models, which likely benefit from larger-scale, higher-quality training datasets. These results underscore the importance of understanding image context through captioning as a foundational step for improving reasoning in VLMs.
 
-Paper: https://arxiv.org/pdf/2505.14677.
-
-Code: https://github.com/maifoundations/Visionary-R1.
+## Resources
+- Paper: https://arxiv.org/pdf/2505.14677.
+- Code: https://github.com/maifoundations/Visionary-R1.
+- Model: https://huggingface.co/maifoundations/Visionary-R1.
