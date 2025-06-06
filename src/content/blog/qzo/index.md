@@ -1,5 +1,5 @@
 ---
-title: 'Fine-Tuning 13B LLMs and Stable Diffusion 3.5 Large Within a Single 24GB GPU'
+title: 'Fine-Tuning 13B LLM or Stable Diffusion 3.5 Large Within a Single 24GB GPU'
 author: 'Sifeng Shang'
 publishDate: 2025-06-06
 tags:
