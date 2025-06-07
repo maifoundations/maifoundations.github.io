@@ -47,10 +47,11 @@ export const theme: ThemeUserConfig = {
   /** Configure the header of your site. */
   header: {
     menu: [
+      { title: 'About', link: '/about' },
       { title: 'Blog', link: '/blog' },
       { title: 'Publications', link: '/publications' },
       { title: 'Github', link: 'https://github.com/maifoundations' },
-      { title: 'About', link: '/about' }
+      { title: 'HuggingFace', link: 'https://huggingface.co/maifoundations' }
     ]
   },
 
