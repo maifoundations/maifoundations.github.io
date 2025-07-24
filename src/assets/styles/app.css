@@ -73,3 +73,9 @@ a {
     color: hsl(var(--primary) / var(--un-text-opacity, 1));
   }
 }
+
+.text-highlight {
+  color: red;
+  font-weight: bold;
+}
+
