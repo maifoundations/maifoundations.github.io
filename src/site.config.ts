@@ -48,8 +48,8 @@ export const theme: ThemeUserConfig = {
   header: {
     menu: [
       { title: 'About', link: '/about' },
-      { title: 'Blog', link: '/blog' },
       { title: 'Publications', link: '/publications' },
+      { title: 'Blog', link: '/blog' },
       { title: 'Github', link: 'https://github.com/maifoundations' },
       { title: 'HuggingFace', link: 'https://huggingface.co/maifoundations' }
     ]
