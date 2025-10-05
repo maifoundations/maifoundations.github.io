@@ -1,5 +1,5 @@
 ---
-title: "Measuring Epistemic Humility in Multimodal Large Language Models"
+title: "HumbleBench: Measuring Epistemic Humility in Multimodal LLMs"
 author: "Bingkui Tong"
 publishDate: 2025-09-13
 tags:
