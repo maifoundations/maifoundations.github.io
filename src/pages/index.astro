@@ -45,9 +45,42 @@ const allPostsByDate = sortMDByDate(allPosts).slice(0, MAX_POSTS)
         <Button title='More about me' class='w-fit self-end' href='/about' style='ahead' />
       </Section> -->
       
+      <Section title='Research'>
+        <div class='grid grid-cols-1 gap-3 sm:grid-cols-2'>
+          <ProjectCard
+            href='https://github.com/maifoundations/HumbleBench'
+            heading='HumbleBench'
+            subheading='Measuring epistemic humility'
+            imagePath='/src/assets/projects/eval.jpg'
+          />
+
+          <ProjectCard
+            href='https://github.com/maifoundations/Visionary-R1'
+            heading='Visionary-R1'
+            subheading='Visual reasoning with RL'
+            imagePath='/src/assets/projects/think.jpg'
+          />
+          
+          <ProjectCard
+            href='https://github.com/maifoundations/GCoT'
+            heading='GCoT'
+            subheading='Grounded chain-of-thought'
+            imagePath='/src/assets/projects/think.jpg'
+          />
+          
+          <ProjectCard
+            href='https://github.com/maifoundations/QZO'
+            heading='QZO'
+            subheading='Quantized zeroth-order optimization'
+            imagePath='/src/assets/projects/learn.jpg'
+          />
+        </div>
+        <Button title='More research' class='w-fit self-end' href='https://github.com/maifoundations' style='ahead' />
+      </Section>
+
       {
         allPostsByDate.length > 0 && (
-          <Section title='Posts'>
+          <Section title='Post'>
             <ul class='flex flex-col gap-y-1.5 sm:gap-y-2'>
               {allPostsByDate.map((p) => (
                 <li class='flex flex-col gap-x-2 sm:flex-row'>
@@ -59,18 +92,6 @@ const allPostsByDate = sortMDByDate(allPosts).slice(0, MAX_POSTS)
           </Section>
         )
       }
-
-      <!-- <Section title='Highlights'>
-        <div class='grid grid-cols-1 gap-3 sm:grid-cols-2'>
-          <ProjectCard
-            href='https://github.com/maifoundations/QZO'
-            heading='QZO'
-            subheading='dolor sit amet, oratio ornatus explicari pro ex'
-            imagePath='/src/assets/projects/code.jpg'
-          />
-        </div>
-        <Button title='More projects' class='w-fit self-end' href='/projects' style='ahead' />
-      </Section> -->
     </div>
     <!-- <Quote class='mt-12' /> -->
   </main>
