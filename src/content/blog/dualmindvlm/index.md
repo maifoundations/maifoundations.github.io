@@ -28,7 +28,7 @@ For a simple emoji recognition question, the System-2-only model writes a long r
 
 # How DualMindVLM works
 
-DualMindVLM achieves automatic mode switching through two simple but innovative stages.
+DualMindVLM achieves automatic mode switching through two simple but innovative stages:
 
 ![](overview.png 'overview')
 
