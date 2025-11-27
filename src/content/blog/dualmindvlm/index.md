@@ -4,9 +4,9 @@ author: "Chenyu Lin"
 publishDate: 2025-11-27
 tags:
   - VLM
-  - reasoning
-  - rl
-  - dual-mode thinking
+  - Reasoning
+  - RL
+  - Dual-mode Thinking
 ---
 
 *Teaching Visual Languege Models to Think Fast and Slow*
@@ -46,7 +46,7 @@ Once samples are labeled as easy or hard, the model must not only learn how to r
 
 - **State-of-the-art performance with significantly fewer tokens.** While competing reasoning-oriented VLMs rely on uniformly long outputs, DualMindVLM achieves comparable or better accuracy with roughly 40% fewer tokens on average. By thinking briefly on easy tasks and reasoning thoroughly only when needed, it brings both accuracy and efficiency, rather than trading one for the other.
 
-- **Dual-mode thinking helps reduce hallucination.** The ability to automatically choose between fast and slow thinking modes also shows promise in mitigating hallucinations. On HumbleBench, DualMindVLM achieves the strongest overall performance, suggesting that thinking less when appropriate can be just as important as reasoning more.
+- **Dual-mode thinking helps reduce hallucination.** The ability to automatically choose between fast and slow thinking modes also shows promise in mitigating hallucinations. On [HumbleBench](https://www.maifoundations.com/blog/humblebench/), DualMindVLM achieves the strongest overall performance, suggesting that thinking less when appropriate can be just as important as reasoning more.
 
 ## Summary
 
