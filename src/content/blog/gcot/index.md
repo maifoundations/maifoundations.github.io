@@ -52,6 +52,10 @@ An example of the self-verification process is shown below:
 
 Finally, the model is retrained with this refined data, improving performance and expanding the training dataset's quality. GCoT enables models to reason more like humans by using visual evidence, boosting accuracy and providing a transparent mechanism for verifying thought processes, making it a valuable tool in machine learning.
 
+Below we show an application of GCoT in robotic manipulation where the model correctly understands the user intent and generates a grounded reasoning process to achieve the goal.
+
+<video src="/images/GCoT_Robot.mp4" width="720" controls></video>
+
 
 ## Summary
 In summary, the paper presents an innovative approach to enhancing the adaptability and reasoning capabilities of Multimodal Large Language Models (MLLMs) through the Grounded Chain-of-Thought (GCoT) methodology. By addressing the challenges of data annotation and domain-specific task adaptation, the GCoT strategy injects grounding information into the reasoning process, allowing MLLMs to generalize better with fewer training samples. The bootstrapping loop facilitates efficient bounding box generation, leveraging the model's existing capabilities to self-improve. This iterative process not only enhances the model's grounding abilities but also refines its reasoning by ensuring answers are supported by verifiable visual evidence. Through self-verification and careful selection of GCoTs, the model achieves improved performance, offering a transparent and efficient means to tackle specialized tasks. This work highlights the potential of GCoT as a powerful tool for data-efficient model adaptation in multimodal AI systems.
