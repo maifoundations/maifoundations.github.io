@@ -9,7 +9,7 @@ tags:
   - Dual-Mode Thinking
 ---
 
-*Teaching Visual Languege Models to Think Fast and Slow*
+*Teaching Visual Languege Models to Think Fast and Slow.*
 
 Humans don't approach every problem with the same thinking level of effort. When the answer is obvious, our brain reacts instantly — recognizing a face, reading a sign, noticing an emotion. But when the problem becomes abstract or ambiguous, like solving geometry or interpreting a tricky chart, we slow down and begin to reason carefully. Psychologists describe this difference using **two complementary thinking systems**:
 
@@ -47,6 +47,45 @@ Once samples are labeled as easy or hard, the model must not only learn how to r
 - **State-of-the-art performance with significantly fewer tokens.** While competing reasoning-oriented VLMs rely on uniformly long outputs, DualMindVLM achieves comparable or better accuracy with roughly 40% fewer tokens on average. By thinking briefly on easy tasks and reasoning thoroughly only when needed, it brings both accuracy and efficiency, rather than trading one for the other.
 
 - **Dual-mode thinking helps reduce hallucination.** The ability to automatically choose between fast and slow thinking modes also shows promise in mitigating hallucinations. On [HumbleBench](https://www.maifoundations.com/blog/humblebench/), DualMindVLM achieves the strongest overall performance, suggesting that thinking less when appropriate can be just as important as reasoning more.
+
+Below we show some applications of DualMindVLM in visual understanding. The examples are better viewed with zoom-in.
+
+Example 1 - Analyzing driving:
+
+![](demo-img1.png 'demo-img1')
+
+Example 2 - Analyzing infographic:
+
+![](demo-img2.png 'demo-img2')
+
+Example 3 - Analyzing stock chart:
+
+![](demo-img3.png 'demo-img3')
+
+Example 4 - AI Assistant:
+
+<iframe
+  width="720"
+  height="405"
+  src="https://www.youtube.com/embed/J8O1TNlSRtg"
+  title="AI Assistant"
+  frameborder="0"
+  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+  allowfullscreen
+></iframe>
+
+Example 5 - Embodied AI:
+
+<iframe
+  width="720"
+  height="405"
+  src="https://www.youtube.com/embed/ukNYDLmAgQA"
+  title="Embodied AI"
+  frameborder="0"
+  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+  allowfullscreen
+></iframe>
+
 
 ## Summary
 

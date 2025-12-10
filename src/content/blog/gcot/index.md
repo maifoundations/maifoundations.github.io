@@ -36,7 +36,7 @@ Let's walk through the process:
 
 Here is a demo for the bootstrapping process:
 
-<video src="/images/Bootstrapping.mp4" width="720" controls></video>
+<video src="/videos/gcot/Bootstrapping.mp4" width="720" controls></video>
 
 ## Inject Grounding information to CoT
 
@@ -54,7 +54,7 @@ Finally, the model is retrained with this refined data, improving performance an
 
 Below we show an application of GCoT in robotic manipulation where the model correctly understands the user intent and generates a grounded reasoning process to achieve the goal.
 
-<video src="/images/GCoT_Robot.mp4" width="720" controls></video>
+<video src="/videos/gcot/GCoT_Robot.mp4" width="720" controls></video>
 
 
 ## Summary
